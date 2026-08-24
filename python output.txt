@@ -1,0 +1,383 @@
+========== DATASET PROFILE ==========
+
+File Name: 2020_al_data_kaggle_upload_new_old_syllabi.csv
+Number of Rows: 337553
+Number of Columns: 19
+
+Column Names:
+['index', 'stream', 'Zscore', 'district_rank', 'island_rank', 'al_year', 'sub1', 'sub1_r', 'sub2', 'sub2_r', 'sub3', 'sub3_r', 'cgt_r', 'ge_r', 'syllabus', 'birth_day', 'birth_month', 'birth_year', 'gender']
+
+========== DATA TYPES ==========
+
+index             int64
+stream           object
+Zscore           object
+district_rank    object
+island_rank      object
+al_year           int64
+sub1             object
+sub1_r           object
+sub2             object
+sub2_r           object
+sub3             object
+sub3_r           object
+cgt_r            object
+ge_r             object
+syllabus         object
+birth_day        object
+birth_month      object
+birth_year       object
+gender           object
+dtype: object
+
+========== SAMPLE DATA ==========
+
+   index    stream  Zscore district_rank  island_rank  al_year  \
+0      0      ARTS  -.3550    4336 (NEW)  64994 (NEW)     2020   
+1      1      ARTS  -.2648    4154 (NEW)  62338 (NEW)     2020   
+2      2  COMMERCE  -.4760    6910 (NEW)  37307 (NEW)     2020   
+3      3  COMMERCE  -.1012    5678 (NEW)  30449 (NEW)     2020   
+4      4  COMMERCE   .6014    3269 (NEW)  17010 (NEW)     2020   
+
+                sub1 sub1_r               sub2 sub2_r        sub3 sub3_r  \
+0  POLITICAL SCIENCE      S  DANCING(BHARATHA)      C       TAMIL      S   
+1  POLITICAL SCIENCE      S     CARNATIC MUSIC      C       TAMIL      C   
+2          ECONOMICS      S   BUSINESS STUDIES      S  ACCOUNTING      S   
+3          ECONOMICS      C   BUSINESS STUDIES      C  ACCOUNTING      S   
+4          ECONOMICS      C   BUSINESS STUDIES      C  ACCOUNTING      B   
+
+  cgt_r ge_r syllabus birth_day birth_month birth_year  gender  
+0   056    S      new        31         May       2001  female  
+1   032    C      new        13     January       2002  female  
+2   050    S      new        16      August       2001  female  
+3   034    S      new        16      August       2001  female  
+4   036    S      new         7      August       2000  female  
+
+========== MISSING VALUES ==========
+
+               Missing_Count  Missing_Percentage
+index                      0                0.00
+stream                     0                0.00
+Zscore                     0                0.00
+district_rank              0                0.00
+island_rank                0                0.00
+al_year                    0                0.00
+sub1                       0                0.00
+sub1_r                     0                0.00
+sub2                       0                0.00
+sub2_r                     0                0.00
+sub3                       0                0.00
+sub3_r                     0                0.00
+cgt_r                      0                0.00
+ge_r                       0                0.00
+syllabus                   0                0.00
+birth_day                  0                0.00
+birth_month                0                0.00
+birth_year                 0                0.00
+gender                  1484                0.44
+
+========== DUPLICATES ==========
+
+Duplicate Rows: 0
+
+========== UNIQUE VALUES ==========
+
+index : 337553 unique values
+stream : 8 unique values
+Zscore : 33891 unique values
+district_rank : 8060 unique values
+island_rank : 47616 unique values
+al_year : 1 unique values
+sub1 : 51 unique values
+sub1_r : 7 unique values
+sub2 : 60 unique values
+sub2_r : 7 unique values
+sub3 : 60 unique values
+sub3_r : 8 unique values
+cgt_r : 73 unique values
+ge_r : 7 unique values
+syllabus : 2 unique values
+birth_day : 34 unique values
+birth_month : 15 unique values
+birth_year : 76 unique values
+gender : 4 unique values
+
+========== NUMERIC STATISTICS ==========
+
+               index   al_year
+count  337553.000000  337553.0
+mean   168776.000000    2020.0
+std     97443.302045       0.0
+min         0.000000    2020.0
+25%     84388.000000    2020.0
+50%    168776.000000    2020.0
+75%    253164.000000    2020.0
+max    337552.000000    2020.0
+
+========== CATEGORICAL STATISTICS ==========
+
+
+Column: stream
+stream
+-                         150514
+ARTS                       76547
+COMMERCE                   39877
+BIOLOGICAL SCIENCE         25768
+PHYSICAL SCIENCE           21776
+ENGINEERING TECHNOLOGY     12498
+BIOSYSTEMS TECHNOLOGY       7833
+NON                         2740
+Name: count, dtype: int64
+
+Column: Zscore
+Zscore
+-         105249
+-.2435        30
+-.1483        27
+.0958         27
+-.0952        25
+-.2750        25
+-.0968        25
+-.4182        25
+.0354         25
+.0348         25
+Name: count, dtype: int64
+
+Column: district_rank
+district_rank
+-           153254
+11 (NEW)       152
+9 (NEW)        151
+3 (NEW)        150
+1 (NEW)        150
+6 (NEW)        150
+21 (NEW)       149
+4 (NEW)        149
+17 (NEW)       149
+2 (NEW)        149
+Name: count, dtype: int64
+
+Column: island_rank
+island_rank
+-              153254
+15404 (NEW)        21
+10890 (NEW)        19
+10175 (NEW)        19
+14637 (NEW)        17
+20755 (NEW)        17
+8416 (NEW)         17
+20768 (NEW)        17
+9044 (NEW)         16
+12569 (NEW)        16
+Name: count, dtype: int64
+
+Column: sub1
+sub1
+PHYSICS                                   88758
+ECONOMICS                                 66538
+GEOGRAPHY                                 52478
+POLITICAL SCIENCE                         36859
+INFORMATION & COMMUNICATION TECHNOLOGY    35337
+AGRICULTURAL SCIENCE                      18676
+COMMUNICATION & MEDIA STUDIES             10410
+HISTORY OF SRI LANKA & INDIA               6779
+CHEMISTRY                                  5938
+HOME ECONOMICS                             4187
+Name: count, dtype: int64
+
+Column: sub1_r
+sub1_r
+S           97338
+F           79006
+C           71764
+Absent      43581
+B           27111
+A           18737
+Withheld       16
+Name: count, dtype: int64
+
+Column: sub2
+sub2
+CHEMISTRY                        83993
+BUSINESS STUDIES                 62466
+BUDDHIST CIVILIZATION            27395
+ENGINEERING TECHNOLOGY           24388
+POLITICAL SCIENCE                18830
+COMMUNICATION & MEDIA STUDIES    18792
+BIO SYSTEMS TECHNOLOGY           13482
+GEOGRAPHY                         8141
+HISTORY OF SRI LANKA & INDIA      7853
+LOGIC & SCIENTIFIC METHOD         6593
+Name: count, dtype: int64
+
+Column: sub2_r
+sub2_r
+S           89408
+C           80261
+F           59559
+Absent      45556
+B           37328
+A           25425
+Withheld       16
+Name: count, dtype: int64
+
+Column: sub3
+sub3
+SINHALA                                   75708
+ACCOUNTING                                64900
+BIOLOGY                                   50723
+COMBINED MATHEMATICS                      39094
+SCIENCE FOR TECHNOLOGY                    37869
+TAMIL                                     22102
+COMMUNICATION & MEDIA STUDIES              4931
+INFORMATION & COMMUNICATION TECHNOLOGY     4840
+ISLAM                                      4060
+BUDDHIST CIVILIZATION                      4016
+Name: count, dtype: int64
+
+Column: sub3_r
+sub3_r
+S           88383
+C           75781
+F           55258
+B           46710
+Absent      43332
+A           28023
+Withheld       65
+A.1             1
+Name: count, dtype: int64
+
+Column: cgt_r
+cgt_r
+Absent    76628
+040       16182
+042       15931
+038       15462
+044       15135
+046       14602
+036       14564
+048       14272
+050       13396
+034       12892
+Name: count, dtype: int64
+
+Column: ge_r
+ge_r
+F           123804
+S            69820
+Absent       66140
+C            36080
+A            23093
+B            18600
+Withheld        16
+Name: count, dtype: int64
+
+Column: syllabus
+syllabus
+new    306211
+old     31342
+Name: count, dtype: int64
+
+Column: birth_day
+birth_day
+1     11297
+10    11296
+21    11265
+20    11199
+23    11188
+17    11173
+9     11087
+6     11084
+22    11078
+19    11068
+Name: count, dtype: int64
+
+Column: birth_month
+birth_month
+May          29424
+October      29350
+March        29203
+April        28714
+January      28616
+July         28182
+November     28043
+June         27951
+August       27584
+September    27411
+Name: count, dtype: int64
+
+Column: birth_year
+birth_year
+2001                 185402
+2000                  90735
+1999                  24155
+2002                  16236
+1998                   6561
+1997                   3366
+1996                   2111
+Invalid nic error      1484
+1995                   1478
+1994                   1209
+Name: count, dtype: int64
+
+Column: gender
+gender
+female         193326
+male           142719
+NaN              1484
+Major error        24
+Name: count, dtype: int64
+
+========== BLANK VALUES ==========
+
+
+========== MEMORY USAGE ==========
+
+Memory Usage: 304.07 MB
+
+========== COLUMN PROFILE ==========
+
+      column_name data_type  total_rows  non_null_count  null_count  \
+0           index     int64      337553          337553           0   
+1          stream    object      337553          337553           0   
+2          Zscore    object      337553          337553           0   
+3   district_rank    object      337553          337553           0   
+4     island_rank    object      337553          337553           0   
+5         al_year     int64      337553          337553           0   
+6            sub1    object      337553          337553           0   
+7          sub1_r    object      337553          337553           0   
+8            sub2    object      337553          337553           0   
+9          sub2_r    object      337553          337553           0   
+10           sub3    object      337553          337553           0   
+11         sub3_r    object      337553          337553           0   
+12          cgt_r    object      337553          337553           0   
+13           ge_r    object      337553          337553           0   
+14       syllabus    object      337553          337553           0   
+15      birth_day    object      337553          337553           0   
+16    birth_month    object      337553          337553           0   
+17     birth_year    object      337553          337553           0   
+18         gender    object      337553          336069        1484   
+
+    null_percentage  unique_values  duplicate_values  
+0              0.00         337553                 0  
+1              0.00              8            337545  
+2              0.00          33891            303662  
+3              0.00           8060            329493  
+4              0.00          47616            289937  
+5              0.00              1            337552  
+6              0.00             51            337502  
+7              0.00              7            337546  
+8              0.00             60            337493  
+9              0.00              7            337546  
+10             0.00             60            337493  
+11             0.00              8            337545  
+12             0.00             73            337480  
+13             0.00              7            337546  
+14             0.00              2            337551  
+15             0.00             34            337519  
+16             0.00             15            337538  
+17             0.00             76            337477  
+18             0.44              3            337550  
+
+Profiling completed.
+Profile saved as dataset_profile.csv
